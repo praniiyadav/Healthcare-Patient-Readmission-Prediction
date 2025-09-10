@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,AdmissionType,Diagnosis,NumProcedures,NumMedications,Readmitted
+1,50-60,Female,Urgent,Diabetes,2,11,No
+2,60-70,Male,Elective,Diabetes,4,16,No
+3,40-50,Female,Elective,Infection,4,3,No
+4,60-70,Female,Elective,Cancer,0,6,Yes
+5,60-70,Male,Emergency,Heart Disease,3,14,No
+6,30-40,Female,Emergency,Diabetes,2,18,No
+7,40-50,Female,Urgent,Heart Disease,0,17,No
+8,40-50,Female,Elective,Cancer,3,4,Yes
+9,40-50,Male,Emergency,Cancer,0,15,Yes
+10,60-70,Female,Elective,Other,0,11,Yes
+11,50-60,Female,Urgent,Cancer,4,3,No
+12,40-50,Female,Emergency,Infection,3,3,No
+13,70-80,Male,Emergency,Diabetes,2,16,Yes
+14,60-70,Female,Emergency,Other,2,5,No
+15,30-40,Male,Urgent,Infection,3,10,No
+16,50-60,Male,Elective,Heart Disease,4,19,No
+17,70-80,Male,Emergency,Diabetes,1,4,No
+18,70-80,Male,Urgent,Cancer,0,19,Yes
+19,30-40,Male,Elective,Diabetes,4,11,No
+20,50-60,Male,Urgent,Heart Disease,3,2,No
+21,60-70,Female,Elective,Other,0,10,No
+22,20-30,Male,Urgent,Other,2,11,No
+23,50-60,Female,Elective,Other,1,16,Yes
+24,30-40,Female,Emergency,Cancer,2,19,No
+25,70-80,Male,Elective,Infection,3,11,Yes
+26,60-70,Female,Urgent,Infection,0,14,No
+27,50-60,Female,Urgent,Diabetes,3,2,No
+28,20-30,Female,Elective,Cancer,0,5,Yes
+29,20-30,Female,Emergency,Other,4,5,No
+30,40-50,Male,Emergency,Other,1,19,Yes
+31,40-50,Female,Elective,Heart Disease,4,12,No
+32,30-40,Male,Elective,Heart Disease,4,18,No
+33,50-60,Female,Urgent,Other,3,4,No
+34,50-60,Female,Emergency,Other,1,17,No
+35,70-80,Male,Elective,Cancer,0,10,No
+36,70-80,Female,Emergency,Infection,0,6,No
+37,70-80,Female,Elective,Heart Disease,2,14,No
+38,40-50,Female,Elective,Infection,0,11,No
+39,50-60,Male,Emergency,Cancer,3,11,Yes
+40,50-60,Female,Elective,Other,4,18,No
+41,20-30,Male,Elective,Infection,4,18,Yes
+42,40-50,Female,Urgent,Other,4,11,No
+43,60-70,Male,Elective,Other,1,12,Yes
+44,40-50,Male,Elective,Diabetes,0,5,Yes
+45,60-70,Female,Elective,Infection,3,9,No
+46,20-30,Female,Urgent,Infection,1,9,No
+47,30-40,Male,Emergency,Other,2,10,No
+48,50-60,Male,Urgent,Cancer,3,19,Yes
+49,20-30,Female,Urgent,Diabetes,3,1,No
+50,50-60,Male,Emergency,Other,3,7,No
+51,70-80,Female,Urgent,Heart Disease,4,4,No
+52,30-40,Female,Emergency,Heart Disease,3,1,Yes
+53,30-40,Female,Urgent,Diabetes,0,15,No
+54,20-30,Female,Emergency,Cancer,3,8,Yes
+55,30-40,Male,Elective,Other,4,12,No
+56,60-70,Female,Urgent,Infection,3,18,No
+57,30-40,Male,Urgent,Diabetes,2,15,No
+58,50-60,Female,Urgent,Cancer,2,17,No
+59,50-60,Male,Urgent,Infection,4,14,No
+60,50-60,Female,Elective,Heart Disease,0,14,No
+61,50-60,Male,Urgent,Heart Disease,0,18,No
+62,60-70,Male,Elective,Infection,1,18,No
+63,40-50,Female,Elective,Diabetes,4,16,No
+64,70-80,Female,Elective,Heart Disease,3,1,No
+65,20-30,Female,Elective,Other,4,11,No
+66,50-60,Female,Emergency,Infection,1,15,No
+67,30-40,Male,Emergency,Infection,4,12,No
+68,50-60,Female,Urgent,Heart Disease,4,8,No
+69,30-40,Male,Emergency,Diabetes,1,6,Yes
+70,70-80,Male,Emergency,Other,0,3,No
+71,70-80,Female,Urgent,Diabetes,3,13,No
+72,70-80,Male,Urgent,Cancer,1,13,Yes
+73,30-40,Male,Urgent,Cancer,2,2,Yes
+74,50-60,Male,Emergency,Heart Disease,0,5,No
+75,70-80,Male,Emergency,Heart Disease,2,17,No
+76,60-70,Female,Urgent,Heart Disease,0,6,No
+77,30-40,Female,Elective,Cancer,3,2,Yes
+78,30-40,Female,Urgent,Diabetes,3,4,No
+79,50-60,Female,Elective,Diabetes,4,11,Yes
+80,30-40,Male,Elective,Heart Disease,2,8,No
+81,30-40,Male,Urgent,Other,0,12,Yes
+82,70-80,Female,Urgent,Diabetes,3,8,Yes
+83,50-60,Female,Urgent,Cancer,1,11,Yes
+84,70-80,Female,Emergency,Infection,3,8,No
+85,70-80,Male,Elective,Infection,1,8,Yes
+86,50-60,Female,Emergency,Infection,0,17,No
+87,20-30,Female,Emergency,Other,3,16,No
+88,70-80,Female,Urgent,Heart Disease,3,14,No
+89,60-70,Male,Emergency,Cancer,0,11,No
+90,60-70,Male,Urgent,Other,3,7,No
+91,30-40,Male,Elective,Cancer,1,16,Yes
+92,60-70,Male,Urgent,Cancer,3,13,No
+93,30-40,Male,Emergency,Heart Disease,2,15,Yes
+94,20-30,Male,Emergency,Infection,4,16,Yes
+95,50-60,Male,Urgent,Heart Disease,1,9,No
+96,50-60,Male,Urgent,Other,2,3,No
+97,50-60,Female,Emergency,Other,0,19,No
+98,60-70,Female,Elective,Other,1,5,No
+99,20-30,Male,Elective,Heart Disease,4,10,No
+100,60-70,Male,Urgent,Cancer,4,17,Yes
+101,60-70,Female,Elective,Cancer,0,15,Yes
+102,20-30,Male,Emergency,Diabetes,0,8,Yes
+103,20-30,Male,Urgent,Other,1,15,Yes
+104,20-30,Male,Emergency,Cancer,3,14,No
+105,20-30,Female,Emergency,Diabetes,0,7,No
+106,50-60,Female,Elective,Cancer,3,12,Yes
+107,40-50,Female,Urgent,Other,2,17,No
+108,40-50,Female,Urgent,Infection,4,17,No
+109,20-30,Female,Elective,Other,3,10,Yes
+110,40-50,Male,Emergency,Heart Disease,4,19,Yes
+111,40-50,Female,Emergency,Cancer,3,14,Yes
+112,20-30,Male,Emergency,Cancer,2,11,Yes
+113,40-50,Male,Emergency,Heart Disease,0,2,Yes
+114,60-70,Female,Urgent,Heart Disease,2,18,No
+115,30-40,Female,Urgent,Infection,0,7,Yes
+116,30-40,Male,Elective,Cancer,0,12,No
+117,20-30,Male,Elective,Cancer,4,2,No
+118,50-60,Male,Urgent,Infection,2,18,No
+119,20-30,Female,Urgent,Diabetes,3,6,No
+120,50-60,Female,Emergency,Infection,2,10,Yes
+121,30-40,Female,Emergency,Other,4,15,No
+122,20-30,Female,Elective,Cancer,0,5,No
+123,70-80,Female,Urgent,Heart Disease,4,3,Yes
+124,60-70,Male,Elective,Other,1,5,Yes
+125,40-50,Female,Urgent,Cancer,1,8,No
+126,50-60,Male,Emergency,Infection,3,8,No
+127,70-80,Male,Elective,Other,4,8,No
+128,40-50,Male,Elective,Cancer,3,12,No
+129,40-50,Female,Urgent,Diabetes,3,8,No
+130,20-30,Female,Emergency,Diabetes,1,11,Yes
+131,40-50,Female,Elective,Heart Disease,3,14,No
+132,60-70,Male,Emergency,Cancer,1,8,Yes
+133,70-80,Male,Elective,Diabetes,0,10,Yes
+134,40-50,Male,Emergency,Infection,4,7,No
+135,20-30,Male,Urgent,Cancer,3,17,No
+136,60-70,Male,Elective,Infection,1,4,No
+137,30-40,Male,Elective,Infection,2,13,No
+138,70-80,Female,Emergency,Diabetes,3,4,No
+139,40-50,Female,Emergency,Cancer,0,5,Yes
+140,20-30,Female,Elective,Other,0,4,Yes
+141,30-40,Female,Urgent,Diabetes,2,18,Yes
+142,30-40,Male,Emergency,Diabetes,1,6,No
+143,50-60,Male,Emergency,Cancer,3,2,No
+144,60-70,Female,Emergency,Cancer,1,11,No
+145,40-50,Male,Elective,Infection,0,14,No
+146,20-30,Female,Elective,Cancer,1,5,No
+147,50-60,Female,Elective,Infection,0,6,Yes
+148,60-70,Female,Elective,Diabetes,1,10,Yes
+149,50-60,Male,Urgent,Heart Disease,2,8,No
+150,70-80,Female,Urgent,Other,4,14,No
+151,60-70,Female,Elective,Diabetes,2,3,No
+152,60-70,Female,Urgent,Cancer,2,12,Yes
+153,40-50,Male,Emergency,Other,4,16,No
+154,60-70,Male,Emergency,Heart Disease,4,17,No
+155,50-60,Female,Emergency,Heart Disease,3,1,Yes
+156,60-70,Male,Elective,Infection,3,10,No
+157,40-50,Male,Emergency,Other,2,10,No
+158,40-50,Male,Urgent,Infection,2,2,No
+159,70-80,Male,Elective,Diabetes,0,9,Yes
+160,50-60,Male,Urgent,Other,0,13,No
+161,30-40,Male,Emergency,Diabetes,3,16,No
+162,30-40,Male,Emergency,Infection,3,18,No
+163,60-70,Male,Emergency,Other,0,19,No
+164,70-80,Male,Elective,Infection,0,12,No
+165,20-30,Male,Urgent,Other,1,8,No
+166,60-70,Female,Elective,Infection,1,17,No
+167,70-80,Female,Elective,Heart Disease,0,15,No
+168,50-60,Male,Emergency,Infection,1,10,Yes
+169,50-60,Female,Elective,Heart Disease,4,15,No
+170,50-60,Female,Elective,Infection,3,15,Yes
+171,50-60,Male,Emergency,Other,3,7,No
+172,50-60,Male,Elective,Other,0,13,No
+173,70-80,Male,Emergency,Other,2,17,No
+174,70-80,Female,Emergency,Cancer,0,9,No
+175,40-50,Female,Emergency,Diabetes,1,8,No
+176,30-40,Male,Emergency,Other,2,18,Yes
+177,50-60,Male,Elective,Heart Disease,1,13,No
+178,20-30,Male,Emergency,Other,4,16,No
+179,70-80,Female,Emergency,Cancer,1,9,Yes
+180,20-30,Female,Elective,Heart Disease,4,12,Yes
+181,20-30,Female,Elective,Cancer,4,12,No
+182,20-30,Female,Urgent,Heart Disease,1,6,No
+183,40-50,Male,Elective,Infection,1,19,No
+184,70-80,Male,Elective,Diabetes,4,7,No
+185,20-30,Male,Urgent,Diabetes,2,3,Yes
+186,50-60,Male,Elective,Cancer,4,16,No
+187,60-70,Female,Elective,Diabetes,3,18,No
+188,20-30,Female,Elective,Cancer,4,16,No
+189,40-50,Male,Elective,Cancer,2,7,No
+190,70-80,Male,Urgent,Cancer,3,4,No
+191,40-50,Female,Elective,Diabetes,0,8,No
+192,20-30,Male,Elective,Cancer,0,13,No
+193,70-80,Female,Urgent,Diabetes,2,13,Yes
+194,60-70,Male,Emergency,Cancer,4,17,No
+195,20-30,Male,Urgent,Other,1,17,No
+196,40-50,Male,Emergency,Cancer,2,5,No
+197,30-40,Male,Urgent,Heart Disease,3,6,Yes
+198,50-60,Male,Urgent,Cancer,3,19,No
+199,40-50,Male,Elective,Infection,0,13,Yes
+200,70-80,Male,Emergency,Cancer,3,14,No
+201,20-30,Female,Elective,Heart Disease,2,4,No
+202,50-60,Female,Emergency,Heart Disease,3,7,No
+203,20-30,Female,Urgent,Diabetes,2,8,Yes
+204,70-80,Female,Urgent,Other,1,13,No
+205,20-30,Female,Emergency,Cancer,0,6,No
+206,30-40,Male,Elective,Diabetes,3,6,No
+207,50-60,Male,Elective,Other,2,3,No
+208,50-60,Female,Elective,Cancer,4,3,No
+209,70-80,Male,Elective,Infection,0,13,No
+210,30-40,Female,Urgent,Cancer,1,2,Yes
+211,40-50,Female,Urgent,Heart Disease,2,16,Yes
+212,20-30,Male,Urgent,Heart Disease,1,6,No
+213,60-70,Male,Urgent,Infection,1,8,No
+214,20-30,Male,Urgent,Diabetes,3,8,No
+215,20-30,Female,Elective,Other,3,6,Yes
+216,40-50,Male,Elective,Cancer,2,14,Yes
+217,20-30,Female,Elective,Heart Disease,4,3,No
+218,30-40,Female,Elective,Diabetes,2,10,Yes
+219,30-40,Female,Urgent,Infection,4,3,No
+220,50-60,Male,Urgent,Heart Disease,1,12,Yes
+221,70-80,Male,Urgent,Infection,0,17,No
+222,60-70,Female,Emergency,Cancer,2,5,No
+223,20-30,Male,Elective,Other,2,9,Yes
+224,20-30,Male,Elective,Heart Disease,4,7,No
+225,40-50,Male,Urgent,Heart Disease,1,4,Yes
+226,70-80,Female,Elective,Cancer,1,13,No
+227,30-40,Female,Elective,Diabetes,4,13,No
+228,60-70,Male,Urgent,Other,1,10,No
+229,50-60,Female,Emergency,Heart Disease,3,18,No
+230,30-40,Male,Emergency,Other,0,17,No
+231,70-80,Male,Emergency,Heart Disease,2,13,Yes
+232,50-60,Male,Urgent,Other,0,17,Yes
+233,40-50,Male,Elective,Infection,2,4,No
+234,40-50,Female,Urgent,Heart Disease,3,1,No
+235,20-30,Female,Urgent,Other,1,1,No
+236,70-80,Female,Elective,Diabetes,4,15,No
+237,60-70,Male,Emergency,Infection,3,13,No
+238,50-60,Male,Emergency,Infection,0,17,No
+239,30-40,Male,Urgent,Diabetes,4,8,No
+240,70-80,Female,Emergency,Other,1,18,No
+241,70-80,Male,Urgent,Cancer,3,13,No
+242,40-50,Female,Urgent,Diabetes,4,14,Yes
+243,20-30,Female,Elective,Other,3,8,Yes
+244,20-30,Female,Elective,Diabetes,3,8,Yes
+245,50-60,Female,Elective,Diabetes,1,15,Yes
+246,40-50,Female,Urgent,Heart Disease,2,13,No
+247,70-80,Female,Elective,Other,4,7,No
+248,60-70,Male,Emergency,Cancer,1,5,No
+249,40-50,Male,Emergency,Heart Disease,3,17,No
+250,50-60,Female,Urgent,Diabetes,1,16,No
+251,50-60,Female,Urgent,Diabetes,2,2,Yes
+252,40-50,Male,Elective,Diabetes,4,18,Yes
+253,50-60,Female,Urgent,Other,2,17,Yes
+254,40-50,Female,Urgent,Other,0,7,No
+255,30-40,Male,Emergency,Heart Disease,4,13,Yes
+256,40-50,Female,Emergency,Cancer,2,18,Yes
+257,40-50,Female,Elective,Heart Disease,3,14,No
+258,50-60,Female,Urgent,Infection,4,18,No
+259,50-60,Male,Urgent,Diabetes,4,13,Yes
+260,20-30,Male,Emergency,Diabetes,1,11,No
+261,20-30,Male,Urgent,Diabetes,3,16,No
+262,30-40,Female,Emergency,Heart Disease,0,17,No
+263,20-30,Female,Elective,Heart Disease,2,8,No
+264,40-50,Male,Emergency,Diabetes,1,19,Yes
+265,50-60,Female,Urgent,Heart Disease,2,15,Yes
+266,20-30,Female,Elective,Other,0,9,No
+267,20-30,Female,Emergency,Other,0,10,No
+268,30-40,Female,Emergency,Heart Disease,4,12,No
+269,70-80,Female,Elective,Diabetes,0,1,No
+270,30-40,Male,Elective,Heart Disease,2,9,No
+271,40-50,Female,Emergency,Heart Disease,3,15,No
+272,50-60,Male,Urgent,Heart Disease,3,1,No
+273,30-40,Female,Emergency,Infection,4,12,No
+274,20-30,Male,Elective,Other,2,3,Yes
+275,50-60,Female,Emergency,Cancer,2,11,No
+276,50-60,Male,Elective,Cancer,0,2,Yes
+277,20-30,Female,Elective,Infection,2,16,Yes
+278,30-40,Male,Urgent,Heart Disease,1,9,No
+279,20-30,Female,Elective,Infection,0,15,Yes
+280,70-80,Male,Elective,Infection,1,12,Yes
+281,50-60,Female,Urgent,Diabetes,4,1,Yes
+282,60-70,Male,Elective,Other,3,13,No
+283,60-70,Male,Urgent,Cancer,4,14,No
+284,40-50,Female,Urgent,Heart Disease,3,8,No
+285,20-30,Female,Elective,Cancer,4,8,Yes
+286,20-30,Male,Elective,Cancer,2,12,No
+287,40-50,Female,Emergency,Other,1,1,No
+288,40-50,Male,Urgent,Cancer,3,11,No
+289,40-50,Male,Emergency,Cancer,0,8,No
+290,50-60,Male,Elective,Infection,1,10,Yes
+291,70-80,Female,Emergency,Other,0,19,No
+292,20-30,Male,Urgent,Diabetes,1,11,No
+293,50-60,Male,Emergency,Heart Disease,1,7,No
+294,40-50,Female,Urgent,Cancer,4,11,No
+295,20-30,Female,Elective,Heart Disease,3,17,No
+296,50-60,Female,Elective,Diabetes,3,1,No
+297,70-80,Female,Urgent,Heart Disease,1,8,No
+298,50-60,Male,Elective,Diabetes,2,6,No
+299,70-80,Male,Elective,Infection,2,18,No
+300,40-50,Male,Elective,Cancer,0,6,Yes
+301,70-80,Male,Elective,Diabetes,0,5,No
+302,20-30,Female,Urgent,Heart Disease,4,13,No
+303,40-50,Male,Emergency,Cancer,1,19,No
+304,20-30,Male,Emergency,Infection,0,8,Yes
+305,60-70,Female,Elective,Cancer,0,9,No
+306,30-40,Male,Emergency,Diabetes,1,17,No
+307,70-80,Male,Emergency,Infection,4,3,No
+308,30-40,Male,Elective,Heart Disease,0,19,No
+309,30-40,Male,Elective,Infection,4,11,No
+310,70-80,Male,Emergency,Infection,3,17,Yes
+311,40-50,Male,Urgent,Other,4,19,No
+312,60-70,Female,Elective,Infection,2,2,Yes
+313,20-30,Female,Urgent,Infection,2,8,Yes
+314,50-60,Male,Emergency,Cancer,4,19,No
+315,20-30,Male,Elective,Heart Disease,2,7,No
+316,50-60,Female,Urgent,Cancer,3,17,No
+317,20-30,Male,Elective,Cancer,1,6,No
+318,70-80,Male,Emergency,Diabetes,2,19,No
+319,60-70,Male,Urgent,Cancer,2,6,No
+320,50-60,Female,Emergency,Other,4,2,Yes
+321,40-50,Male,Emergency,Other,3,6,No
+322,20-30,Female,Elective,Diabetes,1,5,No
+323,20-30,Male,Urgent,Heart Disease,4,19,No
+324,50-60,Female,Emergency,Heart Disease,4,4,Yes
+325,40-50,Female,Emergency,Cancer,3,17,No
+326,40-50,Male,Urgent,Cancer,1,11,Yes
+327,70-80,Female,Emergency,Cancer,3,4,Yes
+328,70-80,Male,Emergency,Heart Disease,1,13,No
+329,70-80,Female,Urgent,Infection,3,17,No
+330,70-80,Male,Urgent,Other,4,9,No
+331,70-80,Male,Urgent,Infection,4,4,No
+332,70-80,Female,Urgent,Infection,0,14,No
+333,60-70,Male,Elective,Heart Disease,2,19,No
+334,40-50,Male,Urgent,Infection,3,3,No
+335,70-80,Female,Elective,Diabetes,0,14,Yes
+336,40-50,Male,Elective,Cancer,2,8,No
+337,40-50,Male,Elective,Diabetes,3,1,No
+338,30-40,Female,Emergency,Other,1,10,No
+339,60-70,Female,Elective,Cancer,2,18,No
+340,70-80,Male,Elective,Infection,4,16,No
+341,20-30,Male,Emergency,Other,0,8,No
+342,50-60,Female,Emergency,Cancer,2,1,No
+343,20-30,Female,Emergency,Infection,2,12,Yes
+344,60-70,Male,Urgent,Diabetes,4,8,No
+345,50-60,Female,Emergency,Cancer,3,16,No
+346,60-70,Male,Emergency,Infection,1,18,No
+347,40-50,Male,Elective,Diabetes,4,4,Yes
+348,50-60,Male,Emergency,Other,1,6,No
+349,40-50,Male,Urgent,Other,3,12,No
+350,20-30,Male,Emergency,Other,2,9,No
+351,20-30,Female,Urgent,Other,1,15,No
+352,50-60,Female,Emergency,Heart Disease,0,16,No
+353,50-60,Female,Emergency,Cancer,0,12,No
+354,70-80,Female,Emergency,Cancer,4,14,No
+355,60-70,Male,Emergency,Heart Disease,3,13,No
+356,70-80,Male,Urgent,Infection,4,2,Yes
+357,60-70,Male,Urgent,Infection,4,3,No
+358,70-80,Male,Elective,Other,4,10,No
+359,40-50,Female,Urgent,Diabetes,0,9,No
+360,50-60,Male,Emergency,Infection,0,8,Yes
+361,20-30,Male,Elective,Diabetes,4,10,No
+362,60-70,Female,Elective,Cancer,0,19,Yes
+363,60-70,Female,Elective,Diabetes,3,3,Yes
+364,20-30,Female,Emergency,Cancer,4,5,No
+365,70-80,Female,Urgent,Heart Disease,0,3,No
+366,60-70,Male,Emergency,Heart Disease,1,16,No
+367,40-50,Male,Elective,Other,4,17,No
+368,50-60,Female,Emergency,Infection,4,15,Yes
+369,20-30,Male,Emergency,Other,3,3,No
+370,50-60,Male,Urgent,Cancer,2,12,No
+371,60-70,Male,Urgent,Other,2,9,Yes
+372,60-70,Female,Elective,Diabetes,3,12,No
+373,20-30,Male,Emergency,Cancer,3,15,No
+374,40-50,Female,Emergency,Heart Disease,3,2,No
+375,30-40,Male,Urgent,Infection,2,18,No
+376,20-30,Male,Emergency,Cancer,3,12,No
+377,30-40,Male,Emergency,Cancer,0,4,No
+378,70-80,Female,Emergency,Diabetes,4,16,No
+379,30-40,Male,Urgent,Infection,4,16,Yes
+380,40-50,Female,Elective,Heart Disease,1,1,No
+381,70-80,Female,Elective,Cancer,1,2,No
+382,30-40,Female,Emergency,Cancer,4,3,No
+383,70-80,Male,Elective,Diabetes,0,17,No
+384,30-40,Male,Urgent,Other,2,1,No
+385,40-50,Male,Urgent,Heart Disease,2,6,No
+386,30-40,Male,Elective,Infection,0,15,Yes
+387,30-40,Female,Elective,Cancer,2,14,No
+388,30-40,Female,Emergency,Cancer,3,15,No
+389,20-30,Female,Elective,Heart Disease,4,14,Yes
+390,20-30,Male,Emergency,Other,4,5,No
+391,20-30,Female,Emergency,Cancer,0,6,No
+392,40-50,Male,Urgent,Heart Disease,2,17,No
+393,70-80,Female,Urgent,Diabetes,1,11,Yes
+394,60-70,Male,Urgent,Other,1,16,Yes
+395,30-40,Male,Urgent,Infection,2,12,No
+396,30-40,Female,Elective,Cancer,1,15,Yes
+397,40-50,Female,Urgent,Heart Disease,0,4,No
+398,30-40,Female,Elective,Diabetes,0,18,No
+399,20-30,Female,Urgent,Infection,2,3,Yes
+400,60-70,Male,Elective,Heart Disease,1,8,Yes
+401,50-60,Female,Emergency,Heart Disease,0,3,No
+402,30-40,Female,Elective,Infection,0,8,No
+403,20-30,Female,Elective,Diabetes,3,18,No
+404,50-60,Male,Urgent,Diabetes,3,10,No
+405,60-70,Male,Elective,Other,0,17,No
+406,50-60,Female,Emergency,Cancer,2,8,No
+407,20-30,Male,Emergency,Infection,4,11,No
+408,70-80,Female,Urgent,Infection,4,5,No
+409,70-80,Male,Emergency,Infection,0,13,No
+410,50-60,Male,Elective,Diabetes,0,5,No
+411,40-50,Male,Emergency,Cancer,0,13,Yes
+412,50-60,Male,Urgent,Other,2,6,No
+413,30-40,Female,Elective,Heart Disease,3,5,Yes
+414,30-40,Female,Urgent,Heart Disease,0,9,Yes
+415,70-80,Female,Elective,Infection,0,16,No
+416,40-50,Male,Emergency,Cancer,1,2,No
+417,20-30,Female,Urgent,Diabetes,2,1,No
+418,30-40,Female,Urgent,Cancer,0,8,No
+419,70-80,Female,Elective,Cancer,1,19,No
+420,60-70,Male,Urgent,Diabetes,4,11,Yes
+421,70-80,Male,Elective,Infection,0,12,No
+422,30-40,Male,Elective,Cancer,0,12,No
+423,30-40,Female,Elective,Heart Disease,1,7,No
+424,70-80,Female,Elective,Diabetes,2,13,No
+425,20-30,Female,Emergency,Other,0,8,Yes
+426,50-60,Male,Elective,Infection,4,9,No
+427,30-40,Male,Urgent,Diabetes,0,7,No
+428,70-80,Female,Emergency,Other,4,15,No
+429,70-80,Male,Urgent,Other,3,2,No
+430,40-50,Male,Emergency,Cancer,3,12,No
+431,50-60,Male,Elective,Cancer,4,1,No
+432,60-70,Male,Emergency,Cancer,2,8,No
+433,20-30,Female,Emergency,Diabetes,0,5,No
+434,60-70,Male,Urgent,Diabetes,0,15,Yes
+435,50-60,Male,Urgent,Infection,3,1,Yes
+436,50-60,Male,Elective,Cancer,4,1,No
+437,50-60,Male,Emergency,Other,0,10,Yes
+438,60-70,Female,Emergency,Heart Disease,0,10,Yes
+439,50-60,Female,Emergency,Infection,2,15,No
+440,70-80,Male,Elective,Diabetes,1,17,No
+441,60-70,Male,Elective,Infection,3,6,No
+442,50-60,Male,Elective,Infection,3,3,Yes
+443,70-80,Male,Elective,Infection,1,13,Yes
+444,40-50,Male,Elective,Infection,0,16,Yes
+445,50-60,Male,Urgent,Heart Disease,2,8,No
+446,60-70,Female,Emergency,Cancer,2,15,No
+447,30-40,Male,Emergency,Other,3,17,No
+448,50-60,Female,Emergency,Infection,2,17,Yes
+449,30-40,Female,Emergency,Infection,1,13,No
+450,70-80,Male,Emergency,Infection,0,17,No
+451,40-50,Female,Emergency,Cancer,1,6,No
+452,20-30,Female,Emergency,Diabetes,4,17,No
+453,40-50,Female,Emergency,Diabetes,3,16,No
+454,50-60,Female,Urgent,Heart Disease,2,14,Yes
+455,30-40,Female,Emergency,Diabetes,4,13,Yes
+456,30-40,Female,Urgent,Infection,2,6,No
+457,60-70,Male,Elective,Infection,0,3,Yes
+458,30-40,Female,Emergency,Infection,0,14,Yes
+459,60-70,Female,Elective,Heart Disease,0,14,Yes
+460,70-80,Female,Elective,Infection,2,15,Yes
+461,20-30,Male,Elective,Diabetes,4,8,No
+462,50-60,Female,Urgent,Cancer,0,15,No
+463,60-70,Male,Elective,Cancer,4,13,No
+464,20-30,Female,Elective,Other,2,17,No
+465,30-40,Male,Elective,Diabetes,4,3,No
+466,30-40,Male,Emergency,Infection,2,6,No
+467,20-30,Female,Emergency,Cancer,2,5,No
+468,30-40,Female,Urgent,Diabetes,3,17,No
+469,70-80,Male,Urgent,Cancer,2,2,Yes
+470,70-80,Female,Emergency,Infection,2,15,No
+471,20-30,Male,Urgent,Cancer,1,5,No
+472,60-70,Male,Emergency,Other,0,6,No
+473,60-70,Male,Elective,Other,3,6,No
+474,20-30,Male,Elective,Cancer,3,18,No
+475,60-70,Male,Urgent,Diabetes,3,18,No
+476,60-70,Female,Emergency,Diabetes,1,4,Yes
+477,70-80,Male,Emergency,Diabetes,2,17,No
+478,60-70,Male,Urgent,Cancer,0,14,No
+479,40-50,Female,Emergency,Diabetes,4,14,No
+480,50-60,Male,Elective,Infection,2,13,Yes
+481,30-40,Female,Urgent,Other,1,7,No
+482,40-50,Female,Urgent,Infection,2,12,No
+483,60-70,Female,Emergency,Diabetes,2,15,Yes
+484,70-80,Male,Urgent,Infection,1,19,No
+485,20-30,Male,Emergency,Diabetes,3,11,Yes
+486,60-70,Male,Emergency,Cancer,3,15,No
+487,70-80,Female,Emergency,Infection,0,12,No
+488,50-60,Male,Emergency,Cancer,0,3,No
+489,60-70,Female,Emergency,Cancer,3,17,Yes
+490,20-30,Male,Urgent,Heart Disease,4,3,No
+491,70-80,Female,Elective,Diabetes,2,19,Yes
+492,70-80,Male,Elective,Other,4,4,Yes
+493,70-80,Male,Urgent,Diabetes,2,3,Yes
+494,50-60,Male,Urgent,Other,3,16,Yes
+495,60-70,Female,Elective,Diabetes,0,12,No
+496,50-60,Female,Elective,Cancer,0,8,Yes
+497,30-40,Male,Elective,Infection,4,17,No
+498,30-40,Male,Elective,Infection,0,7,No
+499,60-70,Female,Elective,Heart Disease,3,11,No
+500,50-60,Female,Emergency,Other,4,18,No
+501,20-30,Female,Urgent,Other,2,1,No
+502,70-80,Male,Emergency,Other,0,3,No
+503,70-80,Female,Elective,Cancer,1,4,Yes
+504,60-70,Male,Elective,Other,0,13,No
+505,30-40,Female,Elective,Infection,2,6,Yes
+506,30-40,Male,Emergency,Cancer,4,14,Yes
+507,70-80,Female,Emergency,Diabetes,2,5,Yes
+508,60-70,Female,Elective,Other,1,16,No
+509,50-60,Female,Emergency,Other,3,15,Yes
+510,30-40,Female,Emergency,Diabetes,0,15,No
+511,50-60,Female,Elective,Other,4,4,Yes
+512,30-40,Male,Emergency,Diabetes,3,8,No
+513,30-40,Female,Urgent,Cancer,2,16,Yes
+514,40-50,Female,Urgent,Infection,4,16,Yes
+515,30-40,Female,Urgent,Diabetes,3,4,No
+516,20-30,Male,Urgent,Heart Disease,4,13,Yes
+517,60-70,Female,Elective,Diabetes,1,13,No
+518,60-70,Male,Elective,Other,1,2,No
+519,50-60,Female,Elective,Cancer,0,3,Yes
+520,30-40,Female,Urgent,Cancer,0,8,No
+521,20-30,Male,Urgent,Diabetes,1,15,Yes
+522,50-60,Female,Emergency,Infection,4,11,No
+523,40-50,Male,Emergency,Heart Disease,1,9,Yes
+524,50-60,Male,Urgent,Cancer,0,7,No
+525,50-60,Female,Urgent,Other,1,13,Yes
+526,30-40,Male,Urgent,Other,1,2,No
+527,40-50,Female,Urgent,Infection,4,8,No
+528,50-60,Female,Emergency,Cancer,3,7,No
+529,20-30,Male,Urgent,Diabetes,0,12,No
+530,20-30,Male,Emergency,Other,4,19,No
+531,60-70,Male,Urgent,Infection,1,7,No
+532,40-50,Male,Urgent,Cancer,1,10,Yes
+533,40-50,Female,Urgent,Cancer,3,16,Yes
+534,60-70,Female,Emergency,Cancer,0,3,Yes
+535,50-60,Male,Emergency,Cancer,0,10,No
+536,40-50,Female,Elective,Cancer,2,6,No
+537,20-30,Female,Urgent,Other,0,18,No
+538,20-30,Female,Elective,Infection,3,18,Yes
+539,30-40,Female,Elective,Cancer,2,5,No
+540,40-50,Male,Emergency,Heart Disease,2,7,Yes
+541,50-60,Male,Emergency,Heart Disease,1,2,No
+542,60-70,Female,Elective,Infection,1,11,No
+543,60-70,Male,Urgent,Diabetes,0,13,No
+544,50-60,Male,Emergency,Diabetes,2,5,No
+545,70-80,Male,Urgent,Diabetes,1,6,No
+546,30-40,Female,Urgent,Heart Disease,3,14,Yes
+547,60-70,Female,Elective,Diabetes,1,12,No
+548,40-50,Female,Elective,Other,1,4,Yes
+549,30-40,Male,Elective,Cancer,2,6,No
+550,40-50,Female,Elective,Heart Disease,2,10,No
+551,20-30,Female,Emergency,Infection,4,18,Yes
+552,30-40,Male,Emergency,Infection,3,15,Yes
+553,60-70,Female,Elective,Cancer,2,8,No
+554,30-40,Female,Emergency,Heart Disease,0,9,No
+555,30-40,Male,Elective,Diabetes,3,5,No
+556,30-40,Male,Urgent,Diabetes,3,10,Yes
+557,70-80,Male,Urgent,Other,2,6,Yes
+558,30-40,Female,Urgent,Other,3,16,No
+559,40-50,Female,Elective,Diabetes,2,3,No
+560,20-30,Female,Urgent,Infection,1,10,Yes
+561,50-60,Male,Emergency,Infection,4,11,No
+562,30-40,Male,Urgent,Other,1,11,Yes
+563,60-70,Female,Urgent,Cancer,2,17,No
+564,30-40,Female,Urgent,Diabetes,2,4,No
+565,60-70,Male,Emergency,Other,1,4,No
+566,40-50,Male,Elective,Other,0,17,No
+567,60-70,Male,Emergency,Diabetes,0,9,No
+568,50-60,Male,Elective,Diabetes,0,19,Yes
+569,20-30,Female,Elective,Infection,2,5,Yes
+570,60-70,Male,Urgent,Cancer,3,6,No
+571,60-70,Female,Elective,Cancer,2,3,No
+572,20-30,Female,Emergency,Diabetes,3,1,No
+573,50-60,Female,Emergency,Heart Disease,1,16,No
+574,30-40,Male,Elective,Other,4,11,No
+575,60-70,Male,Urgent,Other,3,13,Yes
+576,20-30,Male,Urgent,Diabetes,0,10,No
+577,40-50,Male,Emergency,Heart Disease,2,3,No
+578,20-30,Female,Urgent,Infection,1,9,No
+579,40-50,Male,Elective,Diabetes,0,12,No
+580,50-60,Male,Elective,Diabetes,1,14,Yes
+581,30-40,Female,Emergency,Other,4,1,No
+582,20-30,Male,Elective,Diabetes,2,18,No
+583,70-80,Female,Emergency,Diabetes,2,17,No
+584,60-70,Female,Elective,Diabetes,4,9,Yes
+585,50-60,Female,Emergency,Other,2,9,Yes
+586,20-30,Female,Urgent,Infection,3,10,Yes
+587,60-70,Female,Elective,Infection,1,19,Yes
+588,20-30,Female,Elective,Diabetes,0,15,No
+589,40-50,Female,Emergency,Other,4,5,No
+590,20-30,Female,Emergency,Infection,3,15,No
+591,70-80,Male,Elective,Infection,0,2,No
+592,20-30,Male,Emergency,Infection,0,13,No
+593,20-30,Male,Elective,Other,4,16,Yes
+594,70-80,Male,Urgent,Other,3,15,No
+595,50-60,Female,Emergency,Diabetes,0,10,No
+596,20-30,Male,Elective,Cancer,0,14,Yes
+597,70-80,Female,Urgent,Infection,3,10,Yes
+598,60-70,Male,Urgent,Cancer,2,14,No
+599,40-50,Male,Elective,Other,0,9,No
+600,40-50,Male,Emergency,Other,1,14,No
+601,20-30,Female,Elective,Other,3,3,Yes
+602,50-60,Male,Urgent,Cancer,0,16,No
+603,50-60,Female,Elective,Other,4,2,No
+604,60-70,Female,Emergency,Diabetes,1,10,Yes
+605,20-30,Male,Urgent,Other,0,3,No
+606,40-50,Male,Elective,Heart Disease,1,11,Yes
+607,50-60,Male,Emergency,Cancer,1,11,No
+608,20-30,Female,Urgent,Heart Disease,2,13,Yes
+609,50-60,Male,Emergency,Other,1,7,Yes
+610,70-80,Female,Urgent,Diabetes,2,17,Yes
+611,50-60,Female,Elective,Infection,3,2,Yes
+612,40-50,Male,Emergency,Other,2,12,No
+613,30-40,Male,Urgent,Diabetes,4,10,Yes
+614,60-70,Female,Emergency,Cancer,0,18,No
+615,60-70,Female,Emergency,Heart Disease,3,11,Yes
+616,40-50,Female,Elective,Heart Disease,3,16,No
+617,50-60,Male,Emergency,Heart Disease,4,17,No
+618,20-30,Female,Urgent,Cancer,2,19,Yes
+619,50-60,Male,Urgent,Diabetes,0,18,No
+620,40-50,Female,Urgent,Cancer,2,3,Yes
+621,60-70,Female,Urgent,Heart Disease,1,16,No
+622,50-60,Male,Elective,Other,2,6,No
+623,60-70,Female,Emergency,Infection,3,12,No
+624,20-30,Male,Elective,Cancer,0,11,No
+625,60-70,Male,Emergency,Cancer,2,15,No
+626,60-70,Female,Emergency,Diabetes,0,15,Yes
+627,30-40,Male,Emergency,Diabetes,0,16,Yes
+628,30-40,Male,Elective,Cancer,1,10,No
+629,70-80,Female,Emergency,Heart Disease,1,12,No
+630,30-40,Male,Elective,Infection,3,13,No
+631,60-70,Male,Urgent,Diabetes,4,4,No
+632,40-50,Male,Urgent,Heart Disease,0,7,No
+633,60-70,Female,Emergency,Other,4,2,No
+634,40-50,Male,Elective,Diabetes,3,15,No
+635,40-50,Female,Urgent,Heart Disease,0,8,No
+636,30-40,Female,Elective,Heart Disease,0,7,No
+637,50-60,Male,Elective,Infection,4,15,Yes
+638,20-30,Male,Emergency,Infection,2,14,Yes
+639,30-40,Male,Urgent,Other,1,8,No
+640,30-40,Female,Emergency,Heart Disease,2,12,Yes
+641,50-60,Male,Emergency,Heart Disease,4,13,No
+642,20-30,Male,Urgent,Infection,1,11,No
+643,60-70,Male,Urgent,Diabetes,2,17,No
+644,70-80,Male,Elective,Diabetes,1,17,No
+645,70-80,Male,Urgent,Cancer,0,4,No
+646,60-70,Female,Elective,Infection,2,8,No
+647,30-40,Female,Elective,Cancer,1,5,No
+648,20-30,Male,Elective,Infection,1,16,No
+649,30-40,Male,Urgent,Other,1,4,No
+650,40-50,Male,Emergency,Heart Disease,2,15,No
+651,30-40,Male,Elective,Other,3,12,No
+652,30-40,Female,Emergency,Infection,2,5,No
+653,60-70,Male,Emergency,Heart Disease,4,16,No
+654,60-70,Female,Urgent,Diabetes,2,14,No
+655,60-70,Female,Emergency,Diabetes,1,10,No
+656,70-80,Male,Emergency,Cancer,0,7,No
+657,40-50,Female,Urgent,Infection,2,13,No
+658,60-70,Female,Elective,Infection,2,5,No
+659,20-30,Female,Emergency,Diabetes,1,3,No
+660,70-80,Female,Urgent,Other,0,15,No
+661,50-60,Male,Emergency,Heart Disease,0,4,No
+662,20-30,Male,Emergency,Other,4,15,No
+663,20-30,Female,Elective,Other,2,14,No
+664,60-70,Male,Emergency,Diabetes,0,19,Yes
+665,50-60,Male,Urgent,Diabetes,0,13,No
+666,50-60,Male,Emergency,Diabetes,3,10,No
+667,70-80,Male,Elective,Cancer,3,5,No
+668,50-60,Male,Elective,Other,0,6,No
+669,40-50,Female,Urgent,Infection,4,4,No
+670,60-70,Male,Elective,Heart Disease,0,2,No
+671,50-60,Male,Emergency,Cancer,1,16,Yes
+672,70-80,Male,Elective,Infection,2,18,No
+673,40-50,Male,Urgent,Other,4,5,No
+674,30-40,Female,Elective,Diabetes,1,4,Yes
+675,30-40,Female,Elective,Other,4,13,Yes
+676,40-50,Female,Elective,Heart Disease,1,19,No
+677,70-80,Female,Urgent,Cancer,2,2,No
+678,40-50,Male,Elective,Cancer,2,13,Yes
+679,60-70,Female,Elective,Heart Disease,3,11,No
+680,60-70,Male,Emergency,Infection,1,4,No
+681,30-40,Male,Urgent,Infection,3,15,No
+682,50-60,Male,Elective,Cancer,1,4,No
+683,70-80,Male,Urgent,Cancer,3,9,No
+684,30-40,Male,Elective,Diabetes,2,7,No
+685,50-60,Female,Elective,Infection,4,19,No
+686,50-60,Female,Elective,Heart Disease,3,19,No
+687,60-70,Female,Emergency,Infection,1,6,Yes
+688,20-30,Female,Emergency,Diabetes,1,6,No
+689,20-30,Male,Emergency,Cancer,2,15,Yes
+690,40-50,Female,Urgent,Cancer,1,15,Yes
+691,60-70,Male,Urgent,Diabetes,0,9,Yes
+692,50-60,Female,Emergency,Heart Disease,4,4,Yes
+693,70-80,Male,Urgent,Cancer,3,18,No
+694,20-30,Male,Elective,Other,4,18,Yes
+695,50-60,Female,Elective,Cancer,2,5,No
+696,20-30,Male,Elective,Other,3,11,No
+697,20-30,Male,Emergency,Diabetes,3,5,No
+698,20-30,Female,Urgent,Diabetes,0,4,Yes
+699,70-80,Male,Emergency,Cancer,2,12,No
+700,60-70,Female,Urgent,Infection,1,2,No
+701,70-80,Female,Elective,Other,0,13,No
+702,30-40,Female,Emergency,Heart Disease,0,10,No
+703,50-60,Male,Urgent,Cancer,4,9,No
+704,60-70,Male,Urgent,Heart Disease,4,10,No
+705,60-70,Male,Elective,Cancer,4,7,No
+706,60-70,Female,Emergency,Infection,0,4,No
+707,60-70,Male,Emergency,Infection,1,19,Yes
+708,70-80,Female,Emergency,Infection,3,10,No
+709,60-70,Female,Elective,Infection,4,3,Yes
+710,40-50,Male,Emergency,Diabetes,1,19,No
+711,50-60,Female,Elective,Diabetes,2,2,No
+712,60-70,Male,Elective,Other,4,10,No
+713,50-60,Male,Elective,Heart Disease,3,2,No
+714,40-50,Male,Urgent,Cancer,2,2,No
+715,40-50,Male,Emergency,Cancer,2,17,No
+716,50-60,Male,Emergency,Diabetes,3,16,No
+717,20-30,Female,Elective,Cancer,4,16,No
+718,30-40,Female,Elective,Diabetes,0,14,Yes
+719,20-30,Female,Emergency,Other,3,7,No
+720,20-30,Male,Elective,Heart Disease,3,11,No
+721,70-80,Male,Emergency,Other,3,1,Yes
+722,20-30,Male,Urgent,Infection,2,11,No
+723,60-70,Female,Elective,Infection,1,4,Yes
+724,70-80,Male,Emergency,Infection,0,7,No
+725,70-80,Female,Elective,Other,4,15,No
+726,40-50,Female,Emergency,Cancer,4,18,No
+727,20-30,Male,Emergency,Heart Disease,1,12,Yes
+728,40-50,Male,Elective,Infection,3,17,Yes
+729,50-60,Female,Urgent,Infection,0,1,Yes
+730,30-40,Male,Emergency,Infection,4,11,No
+731,70-80,Female,Emergency,Heart Disease,4,1,No
+732,50-60,Male,Emergency,Infection,3,15,No
+733,50-60,Male,Urgent,Heart Disease,1,10,No
+734,60-70,Female,Urgent,Infection,0,7,No
+735,30-40,Male,Elective,Other,1,2,No
+736,50-60,Female,Urgent,Other,1,10,No
+737,50-60,Male,Elective,Heart Disease,0,4,No
+738,30-40,Female,Elective,Other,0,12,No
+739,30-40,Female,Urgent,Heart Disease,4,19,Yes
+740,50-60,Male,Elective,Other,4,11,Yes
+741,30-40,Female,Urgent,Other,0,8,No
+742,50-60,Male,Elective,Heart Disease,2,18,Yes
+743,50-60,Male,Urgent,Cancer,4,11,No
+744,60-70,Male,Urgent,Other,2,11,No
+745,20-30,Female,Elective,Infection,0,13,No
+746,50-60,Female,Emergency,Cancer,4,3,No
+747,40-50,Male,Elective,Heart Disease,1,12,Yes
+748,70-80,Male,Urgent,Cancer,0,3,No
+749,20-30,Female,Emergency,Diabetes,3,10,No
+750,20-30,Male,Elective,Diabetes,2,17,No
+751,20-30,Male,Elective,Other,0,2,No
+752,60-70,Female,Elective,Other,0,17,No
+753,50-60,Male,Emergency,Infection,4,16,No
+754,60-70,Female,Urgent,Cancer,4,2,No
+755,50-60,Male,Elective,Diabetes,4,6,Yes
+756,60-70,Female,Elective,Other,3,10,No
+757,60-70,Male,Elective,Cancer,4,10,No
+758,70-80,Male,Elective,Other,0,8,No
+759,40-50,Female,Elective,Other,4,1,No
+760,60-70,Male,Urgent,Diabetes,1,13,No
+761,70-80,Female,Urgent,Diabetes,4,9,No
+762,30-40,Male,Elective,Other,3,10,No
+763,40-50,Female,Emergency,Heart Disease,1,15,Yes
+764,60-70,Female,Urgent,Other,0,5,No
+765,20-30,Female,Emergency,Other,0,16,Yes
+766,30-40,Female,Urgent,Infection,2,13,Yes
+767,30-40,Male,Elective,Infection,1,18,No
+768,70-80,Male,Urgent,Infection,2,11,No
+769,30-40,Female,Elective,Heart Disease,1,9,No
+770,40-50,Female,Urgent,Heart Disease,1,16,Yes
+771,60-70,Female,Elective,Other,3,2,No
+772,60-70,Male,Elective,Infection,2,2,No
+773,20-30,Male,Elective,Heart Disease,3,12,No
+774,70-80,Male,Elective,Diabetes,1,8,No
+775,20-30,Male,Emergency,Other,0,9,No
+776,30-40,Female,Elective,Cancer,1,12,No
+777,20-30,Female,Emergency,Other,3,9,No
+778,40-50,Female,Emergency,Cancer,2,10,Yes
+779,60-70,Male,Elective,Infection,2,2,No
+780,30-40,Male,Emergency,Cancer,3,16,No
+781,20-30,Male,Urgent,Infection,2,7,No
+782,70-80,Female,Elective,Diabetes,4,2,Yes
+783,40-50,Female,Emergency,Cancer,0,1,No
+784,40-50,Male,Elective,Other,0,19,No
+785,20-30,Female,Elective,Infection,0,4,No
+786,60-70,Male,Elective,Other,2,2,Yes
+787,20-30,Male,Emergency,Heart Disease,2,14,No
+788,30-40,Female,Urgent,Infection,1,2,No
+789,20-30,Male,Urgent,Cancer,1,15,No
+790,40-50,Female,Emergency,Infection,0,12,Yes
+791,20-30,Male,Elective,Other,4,5,No
+792,60-70,Female,Emergency,Diabetes,1,7,No
+793,70-80,Female,Emergency,Infection,1,10,Yes
+794,50-60,Female,Emergency,Cancer,2,14,Yes
+795,20-30,Male,Elective,Heart Disease,4,14,No
+796,60-70,Male,Emergency,Diabetes,0,5,Yes
+797,60-70,Female,Elective,Heart Disease,1,18,Yes
+798,70-80,Female,Emergency,Infection,4,14,No
+799,40-50,Male,Urgent,Other,4,2,No
+800,60-70,Male,Emergency,Other,0,12,Yes
+801,60-70,Male,Emergency,Cancer,4,6,No
+802,60-70,Female,Urgent,Other,4,4,Yes
+803,60-70,Male,Elective,Diabetes,4,13,Yes
+804,30-40,Male,Elective,Other,1,4,Yes
+805,30-40,Female,Emergency,Cancer,0,14,No
+806,40-50,Male,Urgent,Infection,4,16,Yes
+807,20-30,Male,Elective,Infection,4,4,Yes
+808,60-70,Male,Emergency,Other,1,1,No
+809,70-80,Female,Urgent,Heart Disease,0,13,No
+810,20-30,Female,Elective,Infection,2,4,Yes
+811,70-80,Female,Elective,Other,1,18,No
+812,20-30,Female,Urgent,Cancer,0,6,Yes
+813,40-50,Female,Urgent,Other,4,3,No
+814,60-70,Female,Urgent,Infection,0,13,No
+815,60-70,Female,Urgent,Cancer,0,16,No
+816,50-60,Male,Emergency,Other,0,5,No
+817,70-80,Male,Urgent,Diabetes,2,4,No
+818,20-30,Female,Elective,Cancer,0,8,Yes
+819,20-30,Male,Elective,Diabetes,2,19,No
+820,30-40,Male,Emergency,Heart Disease,4,14,Yes
+821,50-60,Female,Elective,Cancer,2,7,No
+822,30-40,Male,Elective,Diabetes,4,14,No
+823,30-40,Male,Urgent,Infection,4,6,No
+824,30-40,Male,Elective,Infection,2,12,No
+825,70-80,Male,Emergency,Heart Disease,1,16,No
+826,70-80,Male,Urgent,Cancer,3,17,No
+827,40-50,Female,Urgent,Cancer,0,13,Yes
+828,40-50,Female,Emergency,Cancer,3,14,No
+829,30-40,Female,Urgent,Heart Disease,0,7,No
+830,50-60,Male,Urgent,Cancer,0,14,No
+831,20-30,Female,Emergency,Infection,4,15,No
+832,70-80,Male,Urgent,Diabetes,0,12,Yes
+833,50-60,Male,Emergency,Infection,0,17,No
+834,60-70,Male,Emergency,Infection,2,9,No
+835,70-80,Male,Elective,Diabetes,3,15,Yes
+836,70-80,Female,Elective,Infection,2,12,No
+837,40-50,Female,Urgent,Heart Disease,0,2,No
+838,20-30,Male,Urgent,Diabetes,4,5,No
+839,20-30,Female,Emergency,Infection,2,13,No
+840,60-70,Male,Urgent,Other,2,8,Yes
+841,60-70,Female,Emergency,Infection,1,14,No
+842,70-80,Female,Emergency,Heart Disease,0,15,No
+843,30-40,Male,Urgent,Cancer,4,11,No
+844,40-50,Female,Emergency,Infection,2,1,No
+845,40-50,Male,Elective,Cancer,2,3,Yes
+846,70-80,Female,Urgent,Other,4,17,Yes
+847,50-60,Male,Elective,Infection,0,19,No
+848,30-40,Male,Urgent,Diabetes,1,14,No
+849,70-80,Female,Emergency,Cancer,2,8,No
+850,30-40,Female,Urgent,Other,1,13,Yes
+851,30-40,Male,Elective,Diabetes,3,3,No
+852,30-40,Female,Emergency,Diabetes,0,5,No
+853,70-80,Female,Urgent,Diabetes,3,9,No
+854,40-50,Male,Urgent,Diabetes,3,6,Yes
+855,40-50,Male,Urgent,Infection,3,2,No
+856,30-40,Female,Elective,Infection,0,13,No
+857,50-60,Male,Elective,Infection,0,5,No
+858,20-30,Male,Urgent,Other,4,8,No
+859,70-80,Male,Emergency,Other,1,1,No
+860,20-30,Female,Emergency,Other,1,12,No
+861,50-60,Female,Elective,Heart Disease,4,11,No
+862,70-80,Male,Emergency,Other,4,7,Yes
+863,30-40,Female,Elective,Infection,3,15,No
+864,40-50,Male,Urgent,Infection,4,11,Yes
+865,20-30,Female,Elective,Heart Disease,2,16,No
+866,60-70,Male,Elective,Heart Disease,1,3,No
+867,60-70,Male,Urgent,Other,4,14,No
+868,50-60,Female,Emergency,Cancer,2,3,No
+869,30-40,Male,Elective,Heart Disease,2,1,Yes
+870,20-30,Female,Elective,Diabetes,2,15,No
+871,30-40,Female,Urgent,Infection,2,1,No
+872,20-30,Male,Emergency,Diabetes,3,17,Yes
+873,50-60,Male,Elective,Infection,2,2,No
+874,50-60,Female,Urgent,Infection,3,6,Yes
+875,60-70,Male,Elective,Heart Disease,3,8,No
+876,30-40,Male,Urgent,Heart Disease,2,16,No
+877,70-80,Male,Emergency,Diabetes,1,19,Yes
+878,60-70,Male,Emergency,Infection,2,1,No
+879,30-40,Male,Emergency,Diabetes,2,3,Yes
+880,60-70,Female,Emergency,Cancer,2,3,Yes
+881,70-80,Female,Elective,Diabetes,1,5,Yes
+882,40-50,Male,Elective,Other,0,12,No
+883,40-50,Male,Emergency,Diabetes,0,12,No
+884,40-50,Male,Emergency,Other,3,13,No
+885,40-50,Female,Emergency,Other,3,9,Yes
+886,20-30,Male,Elective,Other,1,7,Yes
+887,40-50,Female,Emergency,Cancer,4,4,No
+888,70-80,Female,Emergency,Diabetes,0,19,No
+889,50-60,Female,Emergency,Diabetes,3,19,No
+890,50-60,Male,Urgent,Cancer,0,6,Yes
+891,20-30,Female,Emergency,Infection,1,13,No
+892,40-50,Male,Urgent,Heart Disease,1,11,No
+893,40-50,Female,Urgent,Diabetes,4,13,No
+894,40-50,Male,Emergency,Heart Disease,4,13,No
+895,60-70,Female,Urgent,Cancer,1,15,Yes
+896,30-40,Male,Emergency,Infection,3,13,No
+897,60-70,Female,Elective,Infection,0,11,No
+898,30-40,Male,Elective,Infection,2,19,No
+899,40-50,Male,Elective,Cancer,4,8,No
+900,40-50,Male,Elective,Other,2,8,No
+901,60-70,Male,Urgent,Other,3,10,No
+902,60-70,Female,Emergency,Heart Disease,4,16,Yes
+903,30-40,Female,Emergency,Other,2,19,No
+904,50-60,Male,Emergency,Other,3,11,No
+905,30-40,Female,Elective,Infection,0,13,No
+906,60-70,Male,Elective,Infection,3,9,No
+907,70-80,Male,Emergency,Heart Disease,4,19,Yes
+908,60-70,Female,Elective,Diabetes,1,16,No
+909,70-80,Male,Emergency,Heart Disease,0,7,No
+910,20-30,Male,Emergency,Heart Disease,2,19,Yes
+911,60-70,Female,Emergency,Cancer,4,12,No
+912,20-30,Male,Emergency,Cancer,1,15,Yes
+913,50-60,Male,Emergency,Heart Disease,3,14,No
+914,30-40,Male,Emergency,Heart Disease,1,11,No
+915,70-80,Male,Emergency,Heart Disease,4,10,No
+916,30-40,Female,Elective,Other,4,11,No
+917,20-30,Female,Emergency,Cancer,1,6,No
+918,70-80,Female,Emergency,Heart Disease,3,2,No
+919,30-40,Male,Elective,Infection,1,11,No
+920,60-70,Male,Elective,Infection,4,19,No
+921,40-50,Female,Elective,Other,4,6,No
+922,20-30,Male,Emergency,Other,2,14,Yes
+923,30-40,Male,Urgent,Diabetes,2,6,No
+924,20-30,Male,Urgent,Diabetes,0,17,Yes
+925,20-30,Male,Elective,Diabetes,4,10,No
+926,70-80,Female,Urgent,Other,2,1,No
+927,70-80,Female,Elective,Other,1,3,No
+928,40-50,Female,Emergency,Other,3,8,No
+929,60-70,Male,Urgent,Infection,1,8,No
+930,20-30,Female,Emergency,Other,3,15,No
+931,30-40,Female,Urgent,Infection,2,7,Yes
+932,50-60,Male,Emergency,Diabetes,0,11,Yes
+933,20-30,Male,Urgent,Diabetes,1,7,Yes
+934,20-30,Female,Emergency,Diabetes,1,4,No
+935,40-50,Female,Emergency,Heart Disease,1,12,Yes
+936,60-70,Female,Urgent,Heart Disease,3,6,No
+937,50-60,Female,Emergency,Cancer,2,14,No
+938,70-80,Male,Emergency,Cancer,1,12,Yes
+939,70-80,Female,Emergency,Cancer,1,11,No
+940,30-40,Female,Urgent,Heart Disease,0,19,No
+941,50-60,Male,Urgent,Heart Disease,0,5,Yes
+942,70-80,Female,Emergency,Cancer,2,14,No
+943,30-40,Male,Emergency,Cancer,2,16,No
+944,60-70,Male,Urgent,Other,4,13,No
+945,30-40,Male,Urgent,Cancer,0,4,No
+946,70-80,Female,Emergency,Other,4,11,No
+947,40-50,Female,Emergency,Infection,3,17,No
+948,40-50,Male,Emergency,Heart Disease,4,7,Yes
+949,40-50,Female,Elective,Cancer,1,14,No
+950,70-80,Female,Urgent,Heart Disease,4,11,No
+951,40-50,Male,Elective,Heart Disease,2,9,Yes
+952,50-60,Male,Urgent,Heart Disease,3,13,No
+953,60-70,Female,Urgent,Infection,1,18,No
+954,30-40,Male,Urgent,Diabetes,4,11,No
+955,30-40,Female,Urgent,Cancer,3,15,No
+956,70-80,Female,Urgent,Diabetes,3,19,No
+957,40-50,Female,Urgent,Diabetes,1,1,No
+958,40-50,Female,Urgent,Diabetes,4,4,No
+959,20-30,Male,Elective,Heart Disease,3,14,No
+960,60-70,Male,Emergency,Other,3,14,No
+961,50-60,Male,Emergency,Heart Disease,0,3,No
+962,30-40,Male,Elective,Heart Disease,3,17,No
+963,20-30,Female,Elective,Diabetes,0,3,No
+964,20-30,Female,Elective,Heart Disease,4,16,No
+965,70-80,Male,Elective,Diabetes,4,14,No
+966,30-40,Female,Urgent,Other,4,13,Yes
+967,70-80,Female,Emergency,Cancer,2,15,No
+968,50-60,Female,Urgent,Diabetes,4,14,No
+969,20-30,Male,Emergency,Other,3,19,Yes
+970,20-30,Male,Emergency,Cancer,1,6,No
+971,60-70,Male,Elective,Infection,0,10,No
+972,50-60,Female,Urgent,Diabetes,2,15,No
+973,20-30,Male,Elective,Diabetes,4,6,Yes
+974,50-60,Male,Urgent,Infection,4,10,No
+975,30-40,Male,Emergency,Infection,1,7,No
+976,40-50,Male,Elective,Diabetes,1,17,Yes
+977,20-30,Male,Elective,Infection,2,18,No
+978,60-70,Male,Emergency,Heart Disease,0,17,No
+979,30-40,Female,Emergency,Cancer,4,9,Yes
+980,50-60,Female,Emergency,Cancer,2,10,No
+981,70-80,Male,Elective,Cancer,3,10,No
+982,30-40,Male,Urgent,Heart Disease,3,7,No
+983,20-30,Female,Elective,Infection,2,16,Yes
+984,50-60,Female,Urgent,Other,4,18,Yes
+985,40-50,Male,Elective,Infection,2,6,Yes
+986,30-40,Male,Elective,Diabetes,4,1,No
+987,20-30,Male,Emergency,Cancer,1,1,No
+988,60-70,Male,Urgent,Infection,2,12,Yes
+989,70-80,Female,Elective,Other,4,2,Yes
+990,50-60,Male,Elective,Diabetes,2,4,No
+991,30-40,Male,Emergency,Heart Disease,2,17,No
+992,30-40,Male,Emergency,Heart Disease,4,4,No
+993,40-50,Male,Urgent,Other,4,11,No
+994,40-50,Female,Elective,Diabetes,0,4,No
+995,60-70,Female,Urgent,Cancer,2,1,Yes
+996,70-80,Female,Elective,Infection,3,7,No
+997,60-70,Male,Urgent,Diabetes,2,18,No
+998,20-30,Male,Emergency,Heart Disease,2,9,No
+999,20-30,Female,Elective,Other,4,3,No
+1000,60-70,Male,Urgent,Other,2,8,Yes
